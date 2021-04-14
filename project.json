@@ -1,18 +1,20 @@
 {
-  "name": "Excel-查询替换",
-  "description": "在Excel某个表格中查询某个单元格字段，筛选出需要的，存储到变量中",
+  "name": "Excel处理",
+  "description": "空白库",
   "main": "NewActivity.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "1.1.6479.13204",
     "UiPath.Excel.Activities": "2.9.3",
     "UiPath.Mail.Activities": "1.9.3",
+    "UiPath.PDF.Activities": "3.3.0",
     "UiPath.System.Activities": "20.10.1",
-    "UiPath.UIAutomation.Activities": "20.10.5"
+    "UiPath.UIAutomation.Activities": "20.10.6"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "20.10.0.0",
-  "projectVersion": "1.0.1",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
